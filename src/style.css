@@ -75,8 +75,13 @@ input[type=submit] {
     margin: 20px auto;
 }
 
+label {
+    display: flex;
+    justify-content: space-around;
+}
+
 input[type=number] {
-    width: 40px;
+    width: 35px;
 }
 
 .buttons {

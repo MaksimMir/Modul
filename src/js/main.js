@@ -26,6 +26,8 @@ window.addEventListener('load', () => {
     taber();
 
     timer();
+
+    
 })
 
 

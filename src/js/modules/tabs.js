@@ -1,7 +1,7 @@
-const tabItem = document.querySelector('.tab_panel');
-let tabContents = document.querySelectorAll('.tab_content');
-
-export default () => {       
+export default () => {  
+    const tabItem = document.querySelector('.tab_panel');
+    let tabContents = document.querySelectorAll('.tab_content'); 
+        
     tabItem.addEventListener('click', (evt) => {
         if (!evt.target.classList.contains('tab_item')) return;
 

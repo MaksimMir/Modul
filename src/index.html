@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulrs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="tab_panel">
+        <div data-number="1" class="tab_item tab_item-active">Date Calculate</div>
+        <div data-number="2" class="tab_item">Timer</div>
+    </div>
+    <div class="tab_content tab_content-active">
+        <form id="calc">
+            <fieldset>
+                <legend>Калькулятор дат</legend>
+                <label for="date-from">First Date
+                    <input id="date-from" type="date"><br>
+                </label>
+                
+    
+                <label for="date-to">Second Date
+                    <input id="date-to" type="date"><br>
+                </label>
+                
+    
+                <input type="submit" value="calculate">
+            </fieldset>
+        </form> 
+        <div class="result"></div>
+    </div>
+    <div class="tab_content">
+        <div class="timer">
+            <label for="time">Установите время таймера
+                <input type="number" id="time">
+            </label>
+            <div class="buttons">
+                <button class="start">Start</button>
+                <button class="stop">Stop</button>
+            </div>
+            <div class="time"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
