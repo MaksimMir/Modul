@@ -1,7 +1,11 @@
-import { writeOutput, dateDiff } from './modules/output.js';
-import calcData from './modules/luxon.js';
-import taber from './modules/tabs.js';
-import timer from './modules/timer.js';
+import { writeOutput, dateDiff } from './js/modules/output.js';
+import calcData from './js/modules/luxon.js';
+import taber from './js/modules/tabs.js';
+import timer from './js/modules/timer.js';
+import './image/logo2.jpeg';
+import './sound/c7b68d9df6de3c5.mp3';
+import './style.css';
+
 
 window.addEventListener('load', () => {
     'use strict';
@@ -26,8 +30,6 @@ window.addEventListener('load', () => {
     taber();
 
     timer();
-
-    
 })
 
 
